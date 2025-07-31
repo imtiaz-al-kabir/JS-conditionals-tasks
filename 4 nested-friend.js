@@ -10,3 +10,19 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else
 */
+let score = 80;
+let fScore = 39;
+
+if (score >= 80) {
+  if (fScore >= 80) {
+    console.log("Lets go for a lunch");
+  } else if (fScore < 80 && fScore >= 60) {
+    console.log("good luck next time");
+  } else if (fScore < 60 && fScore >= 40) {
+    console.log("message unseen");
+  } else {
+    console.log("Block");
+  }
+} else {
+  console.log("go to home and sleep and act sad");
+}
